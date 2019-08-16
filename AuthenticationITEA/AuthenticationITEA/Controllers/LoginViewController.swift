@@ -30,10 +30,10 @@ class LoginViewController: UIViewController {
         signInButton.clipsToBounds = true
         emailTextField.delegate = self
         passwordTextField.delegate = self
-        post()
+        getDataFirebase()
     }
     
-    func post() {
+    func getDataFirebase() {
         let ref = Database.database().reference(withPath: "student")
         ref.queryOrderedByKey().observe(.childAdded) { (snapshot) in
             

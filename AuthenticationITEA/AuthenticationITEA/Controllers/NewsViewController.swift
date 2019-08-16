@@ -82,7 +82,9 @@ class NewsViewController: UIViewController {
     }
     
     func saveDataToRealmModel() {
-        newsListRealm.removeAll()
+        try! realm.write {
+            realm.deleteAll()
+        }
         for news in newsModel {
             let realmModel = NewsModelRealm()
             realmModel.name = news.name
