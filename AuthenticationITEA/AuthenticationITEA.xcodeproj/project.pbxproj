@@ -13,7 +13,6 @@
 		8406430522F3746C00B32BDC /* InternetConnecting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406430422F3746C00B32BDC /* InternetConnecting.swift */; };
 		8430445B22E858D700EAAA59 /* pandaGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8430445A22E858D600EAAA59 /* pandaGif.gif */; };
 		8435962F22EE2C42007A5477 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435962E22EE2C42007A5477 /* SearchModel.swift */; };
-		844E309422FC5BB300F50C67 /* iteaGifDownload.gif in Resources */ = {isa = PBXBuildFile; fileRef = 844E309322FC5BB300F50C67 /* iteaGifDownload.gif */; };
 		8455E26822E9906E006BDE0F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455E26722E9906E006BDE0F /* ProfileViewController.swift */; };
 		8455E26B22E9A822006BDE0F /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455E26922E9A822006BDE0F /* NewsCell.swift */; };
 		8455E26C22E9A822006BDE0F /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8455E26A22E9A822006BDE0F /* NewsCell.xib */; };
@@ -21,6 +20,7 @@
 		8455E27022EA0051006BDE0F /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455E26F22EA0051006BDE0F /* NewsViewController.swift */; };
 		846A1B5322E89281001861E8 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A1B5222E89281001861E8 /* AuthModel.swift */; };
 		846A1B5522E8E403001861E8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A1B5422E8E403001861E8 /* MapViewController.swift */; };
+		8475B23723066E7500730930 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8475B23623066E7400730930 /* UIView.swift */; };
 		847B689522FDFB820037D4BE /* NewsModelMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B689422FDFB820037D4BE /* NewsModelMappable.swift */; };
 		847B689923004F7F0037D4BE /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B689823004F7F0037D4BE /* NewsModel.swift */; };
 		84BA2C7722E8354C004264CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA2C7622E8354C004264CC /* AppDelegate.swift */; };
@@ -39,7 +39,6 @@
 		8406430422F3746C00B32BDC /* InternetConnecting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnecting.swift; sourceTree = "<group>"; };
 		8430445A22E858D600EAAA59 /* pandaGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pandaGif.gif; sourceTree = "<group>"; };
 		8435962E22EE2C42007A5477 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
-		844E309322FC5BB300F50C67 /* iteaGifDownload.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = iteaGifDownload.gif; sourceTree = "<group>"; };
 		8455E26722E9906E006BDE0F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		8455E26922E9A822006BDE0F /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		8455E26A22E9A822006BDE0F /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		8455E26F22EA0051006BDE0F /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		846A1B5222E89281001861E8 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
 		846A1B5422E8E403001861E8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8475B23623066E7400730930 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		847B689422FDFB820037D4BE /* NewsModelMappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModelMappable.swift; sourceTree = "<group>"; };
 		847B689823004F7F0037D4BE /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
 		84BA2C7322E8354C004264CC /* AuthenticationITEA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthenticationITEA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,7 +97,6 @@
 			children = (
 				84BA2C8A22E84C21004264CC /* Gif.swift */,
 				8430445A22E858D600EAAA59 /* pandaGif.gif */,
-				844E309322FC5BB300F50C67 /* iteaGifDownload.gif */,
 			);
 			path = Gif;
 			sourceTree = "<group>";
@@ -137,6 +136,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		8475B23523066E4100730930 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8475B23623066E7400730930 /* UIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		84BA2C6A22E8354C004264CC = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +165,7 @@
 		84BA2C7522E8354C004264CC /* AuthenticationITEA */ = {
 			isa = PBXGroup;
 			children = (
+				8475B23523066E4100730930 /* Extension */,
 				8406430122F3297200B32BDC /* Managers */,
 				846A1B5122E8926C001861E8 /* Models */,
 				846A1B5022E89264001861E8 /* Cells */,
@@ -249,7 +257,6 @@
 				84BA2C7C22E8354C004264CC /* Main.storyboard in Resources */,
 				84BA2C8922E847F9004264CC /* GoogleService-Info.plist in Resources */,
 				8430445B22E858D700EAAA59 /* pandaGif.gif in Resources */,
-				844E309422FC5BB300F50C67 /* iteaGifDownload.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +339,7 @@
 				847B689522FDFB820037D4BE /* NewsModelMappable.swift in Sources */,
 				8455E27022EA0051006BDE0F /* NewsViewController.swift in Sources */,
 				84CA817E23047FEC00FA0465 /* WebViewController.swift in Sources */,
+				8475B23723066E7500730930 /* UIView.swift in Sources */,
 				846A1B5522E8E403001861E8 /* MapViewController.swift in Sources */,
 				84F88A2A22ECD4DD004B7F7A /* LoginViewController.swift in Sources */,
 				84BA2C8B22E84C21004264CC /* Gif.swift in Sources */,

@@ -21,13 +21,13 @@ class SearchModel {
     private static func setFromDate() -> Date {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd"
-        return formatter.date(from: "2019-07-21") ?? Date()
+        return formatter.date(from: "2019-08-01") ?? Date()
     }
     
     private static func setToDate() -> Date {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd"
-        return formatter.date(from: "2019-08-11 ") ?? Date()
+        return formatter.date(from: "2019-08-16 ") ?? Date()
     }
     
     func returnDateString(date: Date) -> String {

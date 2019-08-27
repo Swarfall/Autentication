@@ -9,10 +9,10 @@
 import Foundation
 import RealmSwift
 
-class RealmManager {
-    
-    static let sharedInstance: RealmManager = {
-        let instance = RealmManager()
-        return instance
-    }()
-}
+//class RealmManager {
+//    
+//    static let sharedInstance: RealmManager = {
+//        let instance = RealmManager()
+//        return instance
+//    }()
+//}

@@ -60,7 +60,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9s-JC-Imn">
                                                 <rect key="frame" x="152" y="458" width="110" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="110" id="b5V-Rw-Wbb"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="b5V-Rw-Wbb"/>
                                                     <constraint firstAttribute="height" constant="50" id="omd-zO-1BD"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
@@ -122,7 +122,7 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.18171671032905579" green="0.19325241446495056" blue="0.21459731459617615" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.1803921568627451" green="0.19215686274509802" blue="0.21568627450980393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="ZGg-do-Vmb" secondAttribute="trailing" constant="30" id="0eX-0M-Sri"/>
                                             <constraint firstItem="4Hs-6z-0fk" firstAttribute="trailing" secondItem="ens-lK-hvq" secondAttribute="trailing" id="1Gf-g8-Loe"/>
@@ -382,7 +382,7 @@
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person" translatesAutoresizingMaskIntoConstraints="NO" id="ANb-zF-wFV">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nonPerson" translatesAutoresizingMaskIntoConstraints="NO" id="ANb-zF-wFV">
                                                 <rect key="frame" x="132" y="25" width="150" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="150" id="JrN-ck-IA6"/>
@@ -392,7 +392,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTo-ho-1TX">
                                                 <rect key="frame" x="134.5" y="840" width="145" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="145" id="2OK-vi-Awc"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="145" id="2OK-vi-Awc"/>
                                                     <constraint firstAttribute="height" constant="50" id="Jym-8I-J6e"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
@@ -424,7 +424,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71f-7J-cFy">
                                                 <rect key="frame" x="8" y="260" width="93" height="26"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="93" id="dA8-DV-GWW"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="93" id="dA8-DV-GWW"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -741,7 +741,7 @@
                                                 <rect key="frame" x="137" y="678" width="140" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="8Jn-xm-hXs"/>
-                                                    <constraint firstAttribute="width" constant="140" id="IRy-Zd-2nO"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="IRy-Zd-2nO"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                                 <state key="normal" title="Go to site">
@@ -888,8 +888,8 @@
     </scenes>
     <resources>
         <image name="exit" width="50" height="50"/>
+        <image name="nonPerson" width="32" height="32"/>
         <image name="pandaGif.gif" width="630" height="675"/>
-        <image name="person" width="640" height="640"/>
         <image name="profile" width="50" height="50"/>
     </resources>
 </document>

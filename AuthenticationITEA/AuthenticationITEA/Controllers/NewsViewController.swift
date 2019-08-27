@@ -95,7 +95,7 @@ class NewsViewController: UIViewController {
             newsListRealm.append(realmModel)
         }
         try! self.realm.write {
-        self.realm.add(newsListRealm)
+        self.realm.create(NewsModelRealm.self)
         }
     }
     
